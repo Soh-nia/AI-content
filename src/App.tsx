@@ -12,6 +12,8 @@ import { Twitter, Linkedin, Mail, RotateCcw, AlertCircle } from "lucide-react"
 import { streamFromClaude } from "./lib/anthropic"
 import Header from "./components/Header"
 import OutputCard from "./components/OutputCard"
+import AppImage from "./assets/images/app-1.jpg"
+import Shadow from "./assets/images/svg/shadow.svg"
 
 
 type Platform = "twitter" | "linkedin" | "email"
@@ -202,11 +204,11 @@ export default function App() {
             <div className="col-lg-5 position-relative">
               <div className="card equal-2-1 equal-lg-1-1 overflow-visible level-1">
                 <div className="card-wrap">
-                  <img className="img-fluid" src="./src/assets/images/app-1.jpg" alt="Image" data-aos="fade-up"
+                  <img className="img-fluid" src={AppImage} alt="Image" data-aos="fade-up"
                     data-aos-delay="200" />
                 </div>
               </div>
-              <img className="position-absolute top-50 start-50 translate-middle level-2" src="./src/assets/images/svg/shadow.svg"
+              <img className="position-absolute top-50 start-50 translate-middle level-2" src={Shadow}
                 alt="" />
             </div>
           </div>
