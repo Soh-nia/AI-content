@@ -12,8 +12,8 @@ import { Twitter, Linkedin, Mail, RotateCcw, AlertCircle } from "lucide-react"
 import { streamFromClaude } from "./lib/anthropic"
 import Header from "./components/Header"
 import OutputCard from "./components/OutputCard"
-import AppImage from "./assets/images/app-1.jpg"
-import Shadow from "./assets/images/svg/shadow.svg"
+import AppImage from "/assets/images/app-1.jpg"
+import Shadow from "/assets/images/svg/shadow.svg"
 
 
 type Platform = "twitter" | "linkedin" | "email"
